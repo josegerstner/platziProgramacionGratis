@@ -1,0 +1,28 @@
+class Billete {
+    valor: 50
+    cantidad: 3
+}
+
+caja = []
+    50:30
+    20:2
+    10_2
+
+dinero=110
+entregado = []
+
+*ciclo
+for b of caja
+    dinero > 0
+    NO
+    SI
+        div=floor(dinero/b.valor)
+            div>b.cantidad
+                SI
+                    papeles=b.cantidad
+                NO
+                    papeles = div
+
+                        e,push(new Billete(b.valor, papeles))
+                            dinero = dinero - (b.valor*papeles)
+                                *ciclo
